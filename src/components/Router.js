@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MenuPeliculas from './CrudPeliculas/MenuPeliculas';
 import Peliculas from './CrudPeliculas/Peliculas';
 import InsertarPelicula from './CrudPeliculas/InsertarPelicula';
-import UpdatePelicula from './CrudPeliculas/UpdatePelicula';
 import DetallesPelicula from './CrudPeliculas/DetallesPelicula';
+import UpdatePelicula from './CrudPeliculas/UpdatePelicula';
 import DeletePelicula from './CrudPeliculas/DeletePelicula';
 
 export default class Router extends Component {

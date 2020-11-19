@@ -4,16 +4,9 @@ import Global from './../../Global';
 import { NavLink } from 'react-router-dom';
 
 export default class DetallesPelicula extends Component {
-    constructor(props){
-        super(props);
-        this.setState({
-            id: props.id
-        });
-    }
-
+    
     state = {
-        id: 0
-        , peliculas: []
+        pelicula: {}
         , status: false
     }
 
