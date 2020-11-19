@@ -37,8 +37,8 @@ export default class DetallesPelicula extends Component {
                         <NavLink to="/" className="btn btn-sm btn-dark">Listado</NavLink>
                         <br /><br />
                         <h3>Nombre: <span style={{color: "green", fontWeight: "bold"}}>{this.state.pelicula.nombre}</span></h3>
-                        <h3>Dirección: <span style={{color: "green", fontWeight: "bold"}}>{this.state.pelicula.director}</span></h3>
-                        <h3>Teléfono: <span style={{color: "green", fontWeight: "bold"}}>{this.state.pelicula.clasificacion}</span></h3>
+                        <h3>Director: <span style={{color: "green", fontWeight: "bold"}}>{this.state.pelicula.director}</span></h3>
+                        <h3>Clasificación: <span style={{color: "green", fontWeight: "bold"}}>{this.state.pelicula.clasificacion}</span></h3>
                         <NavLink to={"/update/" + this.state.pelicula.id} className="btn btn-primary">Modificar</NavLink> &nbsp;&nbsp;
                         <NavLink to={"/delete/" + this.state.pelicula.id} className="btn btn-danger">Borrar</NavLink>
                     </React.Fragment>
